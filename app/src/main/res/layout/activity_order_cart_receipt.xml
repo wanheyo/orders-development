@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="10dp"
+    android:orientation="vertical"
+    tools:context=".OrderCartReceiptActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarReceipt"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/primary"
+        android:elevation="4dp"
+        android:paddingBottom="15dp"
+        app:theme="@style/ToolBarStyle"
+        app:navigationIcon="@drawable/round_close_24"/>
+
+    <WebView
+        android:id="@+id/wv_receiptpage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
