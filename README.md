@@ -25,3 +25,7 @@ java.lang.IllegalArgumentException: View=DecorView@5406964[MainActivity] not att
 - Change minimum SDK to 26 (Android 8) from 24 (Android 7), so the minimum android version must be Android 8 (Oreo) to run this app.
 - Fix unclickable cart button in Dish page.
 - Fix bugs.
+
+5) 6 (1.5) Release, 01/09/2024:
+- Official release.
+- Fix logo placeholder in login page.
